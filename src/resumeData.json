@@ -1,0 +1,110 @@
+{
+    "main": {
+      "name":"Shan Shaji",
+      "occupation":"Full Stack Developer",
+      "description":"I mostly work with Ruby on Rails and React",
+      "image":"profilepic.jpg",
+      "bio":"End to End Product Developer with immense passion towards Rails and React",
+      "email": "shanshaji@gmail.com",
+      "phone": "9894529526",
+      "address":{
+        "street":"brooklyn",
+        "city":"New York",
+        "state":"New York",
+        "zip": "1234"
+      },
+      "website": "http://www.github.com/shanshaji",
+      "resumedownload":"../../public/resume.pdf",
+      "social":[
+        {
+          "name":"facebook",
+          "url":"http://facebook.com",
+          "className":"fa fa-facebook"
+        },
+        {
+          "name":"twitter",
+          "url":"http://twitter.com",
+          "className":"fa fa-twitter"
+        },
+        {
+          "name":"google-plus",
+          "url":"http://googleplus.com",
+          "className":"fa fa-google-plus"
+        },
+        {
+          "name":"linkedin",
+          "url":"http://linkedin.com",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"http://instagram.com",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"http://github.com/shanshaji",
+          "className":"fa fa-github"
+        },
+        {
+          "name":"skype",
+          "url":"http://skype.com",
+          "className":"fa fa-skype"
+        }
+      ]
+    },
+    "resume":{
+      "education":[
+        {
+          "school":"Sri Krishna College of Engineering and Technology",
+          "degree":"Bachelor",
+          "graduated":"March 2017",
+          "description":"Engineering College where i learned"
+        },
+        {
+          "school":"DCT Academy",
+          "degree":"Software Development",
+          "graduated":"March 2006",
+          "description":"Ruby On Rails"
+        }
+      ],
+      "work":[
+        {
+          "company":"Cybrilla",
+          "title":"Software Developer ",
+          "years":"March 2019 - March 2020",
+          "description":"Worked in a call center management application using ruby on rails and react"
+        },
+        {
+          "company":"RubyKraft, Bangalore",
+          "title":"Graduate Software Engineer",
+          "years":"March 2018 - February 2019",
+          "description":"Worked on multiple projects using rails react and electron."
+        }
+      ],
+      "skills":[
+        {
+          "name":"Ruby on Rails",
+          "level":"90%"
+        },
+        {
+          "name":"React",
+          "level":"90%"
+        },
+        {
+          "name":"Electron",
+          "level":"50%"
+        },
+        {
+          "name":"Angular",
+          "level":"30%"
+        },
+        {
+          "name":"JavaScript",
+          "level":"80%"
+        }
+        
+      ]
+    }
+  }
+  
