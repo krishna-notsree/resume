@@ -88,6 +88,10 @@
           "level":"90%"
         },
         {
+          "name":"JavaScript",
+          "level":"80%"
+        },
+        {
           "name":"React",
           "level":"90%"
         },
@@ -98,10 +102,6 @@
         {
           "name":"Angular",
           "level":"30%"
-        },
-        {
-          "name":"JavaScript",
-          "level":"80%"
         }
         
       ]
