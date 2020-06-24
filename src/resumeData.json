@@ -2,7 +2,7 @@
     "main": {
       "name":"Shan Shaji",
       "occupation":"Full Stack Developer",
-      "description":"I mostly work with Ruby on Rails and React",
+      "description":"I mostly work with Ruby on Rails and JavaScript",
       "image":"profilepic.jpg",
       "bio":"End to End Product Developer with immense passion towards Rails and React",
       "email": "shanshaji@gmail.com",
@@ -18,7 +18,7 @@
       "social":[
         {
           "name":"facebook",
-          "url":"http://facebook.com",
+          "url":"https://www.facebook.com/shan.shaji1/",
           "className":"fa fa-facebook"
         },
         {
