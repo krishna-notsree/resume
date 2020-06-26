@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-
+import React, { Component } from "react";
 
 class Contact extends Component {
   constructor() {
-    super()
+    super();
     this.state = {
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    }
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+      status: "",
+    };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    
   }
   handleChange(event) {
     const target = event.target;
@@ -20,15 +19,27 @@ class Contact extends Component {
     const name = target.name;
 
     this.setState({
-      [name]: value
+      [name]: value,
     });
-   
   }
 
-  handleSubmit(event) { 
-    let email = this.props.data.email;
-    event.preventDefault();
-    
+  handleSubmit(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
   }
 
   render() {
@@ -39,6 +50,7 @@ class Contact extends Component {
       let state = this.props.data.address.state;
       let zip = this.props.data.address.zip;
       let phone = this.props.data.phone;
+      const { status } = this.state;
       return (
         <section id="contact">
           <div className="row section-head">
@@ -58,6 +70,8 @@ class Contact extends Component {
                 onSubmit={this.handleSubmit}
                 id="contactForm"
                 name="contactForm"
+                action="https://formspree.io/mlepwjle"
+                method="POST"
               >
                 <fieldset>
                   <div>
@@ -119,21 +133,21 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button type="submit" className="submit">
-                      Submit
-                    </button>
+                    {status === "SUCCESS" ? (
+                      <p>Thanks!</p>
+                    ) : (
+                      <button type="submit" className="submit">
+                        Submit
+                      </button>
+                    )}
+                    {status === "ERROR" && <p>Ooops! There was an error.</p>}
+
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
                   </div>
                 </fieldset>
               </form>
-
-              <div id="message-warning"> Error boy</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
-                <br />
-              </div>
             </div>
 
             <aside className="four columns footer-widgets">
@@ -153,9 +167,7 @@ class Contact extends Component {
         </section>
       );
     } else {
-        return(
-            <div/>
-        )
+      return <div />;
     }
   }
 }

@@ -23,22 +23,17 @@
         },
         {
           "name":"twitter",
-          "url":"http://twitter.com",
+          "url":"https://twitter.com/shan9645",
           "className":"fa fa-twitter"
         },
         {
-          "name":"google-plus",
-          "url":"http://googleplus.com",
-          "className":"fa fa-google-plus"
-        },
-        {
           "name":"linkedin",
-          "url":"http://linkedin.com",
+          "url":"https://www.linkedin.com/in/shanshaji/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"instagram",
-          "url":"http://instagram.com",
+          "url":"https://www.instagram.com/shan_chelakkat/",
           "className":"fa fa-instagram"
         },
         {
