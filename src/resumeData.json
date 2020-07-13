@@ -1,105 +1,179 @@
 {
-    "main": {
-      "name":"Shan Shaji",
-      "occupation":"Full Stack Developer",
-      "description":"I mostly work with Ruby on Rails and JavaScript",
-      "image":"profilepic.jpg",
-      "bio":"End to End Product Developer with immense passion towards Rails and React",
-      "email": "shanshaji@gmail.com",
-      "phone": "9894529526",
-      "address":{
-        "street":"brooklyn",
-        "city":"New York",
-        "state":"New York",
-        "zip": "1234"
-      },
-      "website": "http://www.github.com/shanshaji",
-      "resumedownload":"../../public/resume.pdf",
-      "social":[
-        {
-          "name":"facebook",
-          "url":"https://www.facebook.com/shan.shaji1/",
-          "className":"fa fa-facebook"
-        },
-        {
-          "name":"twitter",
-          "url":"https://twitter.com/shan9645",
-          "className":"fa fa-twitter"
-        },
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/shanshaji/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"instagram",
-          "url":"https://www.instagram.com/shan_chelakkat/",
-          "className":"fa fa-instagram"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/shanshaji",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://skype.com",
-          "className":"fa fa-skype"
-        }
-      ]
+  "main": {
+    "name": "Shan Shaji",
+    "occupation": "Full Stack Developer",
+    "description": "I mostly work with Ruby on Rails and JavaScript",
+    "image": "profilepic.jpg",
+    "bio": "End to End Product Developer with immense passion towards Rails and React",
+    "email": "shanshaji@gmail.com",
+    "phone": "9894529526",
+    "address": {
+      "street": "brooklyn",
+      "city": "New York",
+      "state": "New York",
+      "zip": "1234"
     },
-    "resume":{
-      "education":[
-        {
-          "school":"Sri Krishna College of Engineering and Technology",
-          "degree":"Bachelor",
-          "graduated":"March 2017",
-          "description":"Engineering College where i learned"
-        },
-        {
-          "school":"DCT Academy",
-          "degree":"Software Development",
-          "graduated":"March 2006",
-          "description":"Ruby On Rails"
-        }
-      ],
-      "work":[
-        {
-          "company":"Cybrilla",
-          "title":"Software Developer ",
-          "years":"March 2019 - March 2020",
-          "description":"Worked in a call center management application using ruby on rails and react"
-        },
-        {
-          "company":"RubyKraft, Bangalore",
-          "title":"Graduate Software Engineer",
-          "years":"March 2018 - February 2019",
-          "description":"Worked on multiple projects using rails react and electron."
-        }
-      ],
-      "skills":[
-        {
-          "name":"Ruby on Rails",
-          "level":"90%"
-        },
-        {
-          "name":"JavaScript",
-          "level":"80%"
-        },
-        {
-          "name":"React",
-          "level":"90%"
-        },
-        {
-          "name":"Electron",
-          "level":"50%"
-        },
-        {
-          "name":"Angular",
-          "level":"30%"
-        }
-        
-      ]
-    }
+    "website": "http://www.github.com/shanshaji",
+    "resumedownload": "../../public/resume.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/shan.shaji1/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/shan9645",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shanshaji/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/shan_chelakkat/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/shanshaji",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "skype",
+        "url": "http://skype.com",
+        "className": "fa fa-skype"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Sri Krishna College of Engineering and Technology",
+        "degree": "Bachelor",
+        "graduated": "March 2017",
+        "description": "Engineering College where i learned"
+      },
+      {
+        "school": "DCT Academy",
+        "degree": "Software Development",
+        "graduated": "March 2006",
+        "description": "Ruby On Rails"
+      }
+    ],
+    "work": [
+      {
+        "company": "Cybrilla",
+        "title": "Software Developer ",
+        "years": "March 2019 - March 2020",
+        "description": "Worked in a call center management application using ruby on rails and react"
+      },
+      {
+        "company": "RubyKraft, Bangalore",
+        "title": "Graduate Software Engineer",
+        "years": "March 2018 - February 2019",
+        "description": "Worked on multiple projects using rails react and electron."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Ruby on Rails",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "React",
+        "level": "90%"
+      },
+      {
+        "name": "Electron",
+        "level": "50%"
+      },
+      {
+        "name": "Angular",
+        "level": "30%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Mystic",
+        "description":"An image taking for a commercial project",
+        "category":"Photoshop",
+        "tags":"Branding, Web Design",
+        "image":"mystic.jpg",
+        "url":"http://port1.com",
+        "modal":"#modal-01"
+      },
+      {
+        "title":"Console",
+        "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
+        "category":"Photograhy",
+        "tags":"Branding, Photography",
+        "image":"console.jpg",
+        "url":"http://port2.com",
+        "modal":"#modal-02"
+      },
+      {
+        "title":"Judah",
+        "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
+        "category":"Photoshop, Photography",
+        "tags":"Branding, Photography",
+        "image":"judah.jpg",
+        "url":"http://port3.com",
+        "modal":"#modal-03"
+      },
+      {
+        "title":"Into The Light",
+        "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
+        "category":"Photography",
+        "tags":"Photography",
+        "image":"into-the-light.jpg",
+        "url":"http://port4.com",
+        "modal":"#modal-04"
+      },
+      {
+        "title":"Carlmer",
+        "description":"An editorial image for a top fashion magazine",
+        "category":"Branding",
+        "tags":"Branding,Photography",
+        "image":"carlmer.jpg",
+        "url":"http://port5.com",
+        "modal":"#modal-05"
+      },
+      {
+        "title":"Forgotten",
+        "description":"A documentary image as part of a larger project for an international charity.",
+        "category":"Photography",
+        "tags":"Photography",
+        "image":"forgotten.jpg",
+        "url":"http://port6.com",
+        "modal":"#modal-06"
+      },
+      {
+        "title":"The Street",
+        "description":"This image was for a commercial stylist and magazine editorial.",
+        "category":"Photography",
+        "tags":"Branding, Photoshop",
+        "image":"thestreet.jpg",
+        "url":"http://port7.com",
+        "modal":"#modal-07"
+      },
+      {
+        "title":"The young one",
+        "description":"This image was taken for a world wide Fashion store specialising in menswear.",
+        "category":"Photography",
+        "tags":"Photography",
+        "image":"theyoungone.jpg",
+        "url":"http://port8.com",
+        "modal":"#modal-08"
+      }
+    ]
   }
-  
+}
