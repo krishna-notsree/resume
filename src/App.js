@@ -5,7 +5,8 @@ import About from './components/about';
 import Resume from './components/resume';
 import Contact from './components/contact';
 import Footer from './components/footer';
-import {main,resume} from './resumeData.json';
+import Portfolio from './components/portfolio';
+import {main,resume, portfolio} from './resumeData.json';
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
       resumeData:{
         main: main,
         resume: resume,
+        portfolio: portfolio
       }
     }
   }
@@ -31,6 +33,7 @@ class App extends Component {
         <Header data={main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} title={this.state.resumeData.main.occupation} />
+        <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
         <Footer />
       </div>
