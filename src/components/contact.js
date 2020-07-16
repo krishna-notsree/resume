@@ -70,7 +70,7 @@ class Contact extends Component {
                 onSubmit={this.handleSubmit}
                 id="contactForm"
                 name="contactForm"
-                action="https://formspree.io/mlepwjle"
+                action="Your FormSpree link"
                 method="POST"
               >
                 <fieldset>
